@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88afd11c802cdf6449faf33ed6e4e3bd, type: 3}
+  m_Name: Level_0
+  m_EditorClassIdentifier: 
+  word: Credit
+  answers: It|Ice|Dice|Dirt|Rice|Direct
+  validWords: 
+  mainWord: 'Credit
+
+    Score'
+  definition: A number assigned to a person that indicates to lenders their capacity
+    to repay a loan. Show the full word and the definition on the screen the game
+    is played on
+  quizes:
+  - question: Credit touches every part of your financial future
+    reasoning: 
+    isCorrect: 1
+  - question: 'Your credit score should be at least a 300 '
+    reasoning: "Your credit score should be at least a 690 to have \u201Cgood\u201D
+      credit"
+    isCorrect: 0
+  - question: Your credit report is the three-digit number that estimates your credit
+      worthiness
+    reasoning: 
+    isCorrect: 1
+  - question: The lower your credit score, the higher your premium will be
+    reasoning: Your credit score is the three-digit number that estimates your credit
+      worthiness
+    isCorrect: 0
